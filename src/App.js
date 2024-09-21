@@ -5,7 +5,7 @@ import Books from "./components/Books";
 import Reservations from "./components/Reservations";
 import UserManagement from "./components/Users";
 import Login from "./components/Login";
-import PrivateRoute from ".../components/PrivateRoute";
+import PrivateRoute from "./components/PrivateRoute";
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
